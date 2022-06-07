@@ -14,10 +14,6 @@ let is_drawing = false;
 let restore_array = [];
 let index = -1;
 
-function change_color(element){
-    draw_color = element.target.style.background;
-}
-
 canvas.addEventListener('touchstart', start, false);
 canvas.addEventListener('touchmove', draw, false);
 canvas.addEventListener('mousedown', start, false);
